@@ -60,6 +60,13 @@
         padding: 0px;
         background: transparent;
     }
+.exchange-icon {
+        position: absolute;
+        top: 2.25rem;
+        right: -25px;
+        z-index: 1;
+        cursor: pointer;
+}
 .to-address {
     display: flex;
     -webkit-box-align: center;
@@ -441,7 +448,7 @@
     width: 34.5rem;
     margin: 0px;
 }
-.icon {
+.icon1 {
     border-bottom: 2px solid red;
     margin-bottom: 2rem;
     
@@ -530,4 +537,109 @@
     right: 11px;
     width: 16px;
     height: 18px;
+}
+.partial-container {
+    margin: 5.625rem 0;
+   
+}
+.partial-container-list {
+    background-image: url(https://s1.rdbuz.com/web/images/homeV2/appinstall/appInstallbg.svg);
+    display: flex;
+    border-radius: 48px;
+    padding: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+    background-size: cover;
+    background-position: right center;
+    width: 50rem;
+    height: 27rem;
+    
+}
+.partial-container-list1 {
+    display: flex;
+    border-radius: 48px;
+    flex-direction: column;
+    gap: 2rem;
+   
+}
+.list-heading {
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    line-height: 3rem;
+    font-weight: 600;
+}
+.full-container {
+    display: flex;
+    gap: 3rem;
+}
+.small-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    padding: 3rem 2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    width: 20.5rem;
+    height: 15rem;
+    gap: 3.8rem;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.tick-icon {
+    display: flex;
+    gap: 10px;
+}
+.text1 {
+    font-size: 1.5rem;
+    line-height: 22px;
+    font-weight: 500;
+}
+.text2 {
+    font-size: 1.5rem;
+    line-height: 22px;
+    font-weight: 500;
+   
+}
+.rating1{
+    display: flex;
+    gap: 0.2rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+.rating-left{
+    display: flex;
+    gap: 0.2rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+.views {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 17px;
+    
+
+}
+.view1 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgb(29, 29, 29);
+}
+
+.txt {
+    font-size: 20px;
+    
+}
+.scan {
+    width: 106px;
+    height: 106px;
+    border-radius: 4px;
+    margin-top: 6rem;
+    
 }
