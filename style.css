@@ -676,3 +676,99 @@
 .apps-image {
     margin-top: 10px;
 }
+.rising-star-container {
+    background: rgb(251, 202, 65);
+    display: flex;
+    border-radius: 2.5rem;
+    height: 552px;
+    width: 70rem;
+    margin: 0 6rem;
+}
+.rising-star-container img {
+    border-radius: 2.5rem;
+}
+.left-image {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.right-cont {
+    width: 482px;
+    border-radius: 40px;
+    background: rgb(35, 48, 88);
+    padding: 80px 42px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(255, 255, 255);
+}
+.on-time {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.friendly-staff {
+    margin: 50px 0;
+}
+
+.on-time-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 60px;
+}
+
+.on-time-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    flex: 1 0 0px;
+    color: rgb(255, 255, 255);
+}
+
+.on-time-first {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.on-time-second {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.global-presence {
+    margin-top: 16rem; 
+    width: 70rem;
+    margin: 0 6rem;
+    margin-top: 15rem;
+}
+.global-presence-heading {
+    margin: 0px 0px 2rem;
+    font-size: 1.75rem;
+    line-height: 3rem;
+    color: rgb(29, 29, 29);
+    font-weight: 600;
+}
+
+.presence-countries {
+    display: flex;
+}
+.countries {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    
+}
+.country-image img {
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 50%;
+    margin-bottom: 0.4rem;
+}
+.country-name {
+    text-align: center;
+    font-weight: bold;
+}
