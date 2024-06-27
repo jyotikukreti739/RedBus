@@ -40,38 +40,41 @@
     
 }
 .from-address {
-        display: flex;
-        -webkit-box-align: center;
-        align-items: center;
-        width: 166px;
-        height: inherit;
-        position: relative;
-        
-       
-    }
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 270px;
+    height: 112px;
+    height: inherit;
+    position: relative;   
+}
+.address-icon {
+    padding: 20px;
+}
 .from_address {
-        height: 22px;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 22px;
-        color: rgb(29, 29, 29);
-        outline: none;
-        border: none;
-        padding: 0px;
-        background: transparent;
-    }
+    height: 22px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(29, 29, 29);
+    outline: none;
+    border: none;
+    padding: 0px;
+    background: transparent;
+}
 .exchange-icon {
-        position: absolute;
-        top: 2.25rem;
-        right: -25px;
-        z-index: 1;
-        cursor: pointer;
+    position: absolute;
+    top: 2.25rem;
+    right: -25px;
+    z-index: 1;
+    cursor: pointer;
 }
 .to-address {
     display: flex;
     -webkit-box-align: center;
     align-items: center;
-    width: 166px;
+    width: 270px;
+    height: 112px;
     height: inherit;
     position: relative;
     border-left: 1px solid rgb(224, 224, 224);
@@ -92,11 +95,13 @@
     display: flex;
     -webkit-box-align: center;
     align-items: center;
-    width: 166px;
+    width: 210px;
+    height: 112px;
     height: inherit;
     position: relative;
     border-left: 1px solid rgb(224, 224, 224);
 }
+
 .Date {
     height: 22px;
     font-weight: 600;
@@ -740,7 +745,6 @@
     line-height: 24px;
 }
 .global-presence {
-    margin-top: 16rem; 
     width: 70rem;
     margin: 0 6rem;
     margin-top: 15rem;
@@ -772,3 +776,88 @@
     text-align: center;
     font-weight: bold;
 }
+
+.online-ticket-book {
+    max-width: 1200px;
+    margin: 0 7.5rem;
+    margin-top: 6rem;
+}
+.ticket-heading {
+    color: #1d1d1d;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem;
+}
+.ticket-para {
+    color: #1d1d1d;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2rem;
+}
+.ticket-para a {
+    text-decoration: none;
+}
+.ticket-heading1{
+    margin: 1rem 0;
+    color: #1d1d1d;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+}
+.ticket-para1 {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 2rem;
+}
+
+.exclusive-deals {
+    border: 1px solid #e0e0e0;
+    border-radius: 1.25rem;
+    box-sizing: border-box;
+    margin: 1.5rem 0;
+    padding: 1.75rem 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+}
+.icon-redBus-logo {
+    font-size: 4em;
+    margin: 0 1.75rem;
+}
+.exclusive-deals-text {
+    flex: 1 0 0;
+}
+.exclusive-deals-text .para1 {
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.exclusive-deals-text .para2 {
+    font-weight: 600;
+}
+.red {
+    color: red;
+}
+.value-seperator {
+    border-right: 1px solid #000;
+    margin: 0 .5em;
+}
+
+.book-now-btn {
+    background-color: #d84e55;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 8px;
+    height: 3rem;
+    width: 8.313rem;
+    cursor: pointer;
+    margin-right: 1.5rem;
+    border: none;
+}
+
