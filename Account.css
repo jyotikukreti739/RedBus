@@ -108,10 +108,11 @@ html {
     width: auto;
 }
   .rb_header .rb_verticals .rb_vertical .img_rb_vertical {
-    width: 5.25rem;
+    width: 2.25rem;
     height: 1.25rem;
     margin-bottom: 0.5rem;
     filter: grayscale(1) brightness(0);
+    margin-left: 1.5rem;
 }
   .rb_header .rb_verticals .rb_vertical .name_rb_vertical {
     color: #1d1d1d;
@@ -171,13 +172,28 @@ html {
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.08);
     overflow: hidden;
 }
+
+.dropdown_wrap .header_dropdown_menu_a {
+    width: max-content;
+    max-width: 250px;
+    padding: 8px 0;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    color: black;
+    text-decoration: none;
+    }
+
 .dropdown_wrap .header_dropdown_menu .header_dropdown_item {
-    display: flex;
+    display: none;
     padding: 1rem 1em;
     align-items: center;
     cursor: pointer;
 }
 
+.dropdown_wrap .header_dropdown_menu .header_dropdown_item:hover {
+    display: flex;
+}
 .dropdown_wrap .header_dropdown_menu .header_dropdown_item .header_dropdown_item_name {
     min-width: 6.5rem;
 }
@@ -239,6 +255,7 @@ hr{
     padding-left: 10px;
     display: inline;
     margin-right: 550px;
+    margin-bottom: 50px;
 }
 .footer-social {
     display: flex;
@@ -453,7 +470,7 @@ div {
 
 
 .boxImage {
-    margin-top: 16px;
+    margin-top: 15px;
     margin-left: 5px;
     margin-right: 8px
 }

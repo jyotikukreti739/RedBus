@@ -89,6 +89,7 @@ body {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    outline: none;
 }
 
 .otp-button, .google-button {
