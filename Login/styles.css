@@ -10,8 +10,6 @@ body {
     padding-left: 250px;
     padding-top: 150px;
     font-family: Montserrat;
-    background-image: url(image/image.png);
-    background-size: cover;
 }
 
 #signInView {
@@ -143,3 +141,160 @@ body {
     background: 154px no-repeat;
     margin-left: -300px;
 }
+
+
+/* make a responsive login page */
+
+/* Default styles */
+/* ... (existing CSS code) ... */
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+    body {
+      padding-left: 0;
+      padding-top: 50px;
+      width: 100%;
+      height: 100%;
+    }
+  
+    #signInView {
+      width: 100%;
+      height: auto;
+    }
+  
+    .container {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .promo-section {
+      width: 21rem;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .promo-section p {
+      font-size: 1.2rem;
+    }
+  
+    .signin-section {
+      padding: 20px;
+    }
+  
+    .signin-section h2 {
+      font-size: 1.2rem;
+    }
+  
+    .form-group {
+      margin-bottom: 10px;
+    }
+  
+    .otp-button,
+    .google-button {
+      width: 100%;
+      font-size: 0.9rem;
+    }
+  
+    .google-button {
+      width: 100%;
+    }
+  }
+  
+  /* Responsive styles for tablets */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    body {
+      padding-left: 0px;
+      padding-top: 100px;
+      width: 100%;
+      height: 100%;
+    }
+  
+    #signInView {
+      width: 90%;
+      height: auto;
+    }
+  
+    .promo-section {
+      width: 50%;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .promo-section p {
+      font-size: 1.4rem;
+    }
+  
+    .signin-section {
+      padding: 30px;
+    }
+  
+    .signin-section h2 {
+      font-size: 1.4rem;
+    }
+  
+    .form-group {
+      margin-bottom: 15px;
+    }
+  
+    .otp-button,
+    .google-button {
+      width: 80%;
+      font-size: 1rem;
+    }
+  
+    .google-button {
+      width: 40%;
+    }
+  }
+
+
+  @media (max-width: 767px )  {
+    body {
+      padding-left: 0;
+      padding-top: 50px;
+      width: 100%;
+      height: 100%;
+    }
+  
+    #signInView {
+      width: 100%;
+      height: auto;
+    }
+  
+    .container {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .promo-section {
+      width: 93%;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .promo-section p {
+      font-size: 1.2rem;
+    }
+  
+    .signin-section {
+      padding: 20px;
+    }
+  
+    .signin-section h2 {
+      font-size: 1.2rem;
+    }
+  
+    .form-group {
+      margin-bottom: 10px;
+    }
+  
+    .otp-button,
+    .google-button {
+      width: 100%;
+      font-size: 0.9rem;
+    }
+  
+    .google-button {
+      width: 100%;
+    }
+  }
